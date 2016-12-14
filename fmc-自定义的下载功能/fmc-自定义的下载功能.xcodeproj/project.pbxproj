@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C9E07EF1E002AF500A0E769 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9E07EE1E002AF500A0E769 /* main.m */; };
+		4C9E07F21E002AF500A0E769 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9E07F11E002AF500A0E769 /* AppDelegate.m */; };
+		4C9E07F51E002AF500A0E769 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9E07F41E002AF500A0E769 /* ViewController.m */; };
+		4C9E07F81E002AF500A0E769 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C9E07F61E002AF500A0E769 /* Main.storyboard */; };
+		4C9E07FA1E002AF500A0E769 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C9E07F91E002AF500A0E769 /* Assets.xcassets */; };
+		4C9E07FD1E002AF500A0E769 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C9E07FB1E002AF500A0E769 /* LaunchScreen.storyboard */; };
+		4C9E08081E002AF500A0E769 /* fmc_________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9E08071E002AF500A0E769 /* fmc_________Tests.m */; };
+		4C9E08131E002AF500A0E769 /* fmc_________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9E08121E002AF500A0E769 /* fmc_________UITests.m */; };
+		4C9E08231E00348700A0E769 /* AppInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9E08221E00348700A0E769 /* AppInfoModel.m */; };
+		4C9E08291E00492100A0E769 /* apps.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C9E08281E00492100A0E769 /* apps.plist */; };
+		4C9E082C1E00509C00A0E769 /* ImageDownLoadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9E082B1E00509C00A0E769 /* ImageDownLoadOperation.m */; };
+		4C9E082F1E00DCCD00A0E769 /* ImageDownLoadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9E082E1E00DCCD00A0E769 /* ImageDownLoadManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C9E08041E002AF500A0E769 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C9E07E21E002AF500A0E769 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C9E07E91E002AF500A0E769;
+			remoteInfo = "fmc-自定义的下载功能";
+		};
+		4C9E080F1E002AF500A0E769 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C9E07E21E002AF500A0E769 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C9E07E91E002AF500A0E769;
+			remoteInfo = "fmc-自定义的下载功能";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C9E07EA1E002AF500A0E769 /* fmc-自定义的下载功能.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fmc-自定义的下载功能.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C9E07EE1E002AF500A0E769 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C9E07F01E002AF500A0E769 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4C9E07F11E002AF500A0E769 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4C9E07F31E002AF500A0E769 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4C9E07F41E002AF500A0E769 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4C9E07F71E002AF500A0E769 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C9E07F91E002AF500A0E769 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C9E07FC1E002AF500A0E769 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C9E07FE1E002AF500A0E769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C9E08031E002AF500A0E769 /* fmc-自定义的下载功能Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fmc-自定义的下载功能Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C9E08071E002AF500A0E769 /* fmc_________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "fmc_________Tests.m"; sourceTree = "<group>"; };
+		4C9E08091E002AF500A0E769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C9E080E1E002AF500A0E769 /* fmc-自定义的下载功能UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fmc-自定义的下载功能UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C9E08121E002AF500A0E769 /* fmc_________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "fmc_________UITests.m"; sourceTree = "<group>"; };
+		4C9E08141E002AF500A0E769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C9E08201E002B1C00A0E769 /* Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		4C9E08211E00348700A0E769 /* AppInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppInfoModel.h; sourceTree = "<group>"; };
+		4C9E08221E00348700A0E769 /* AppInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppInfoModel.m; sourceTree = "<group>"; };
+		4C9E08281E00492100A0E769 /* apps.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = apps.plist; sourceTree = "<group>"; };
+		4C9E082A1E00509C00A0E769 /* ImageDownLoadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDownLoadOperation.h; sourceTree = "<group>"; };
+		4C9E082B1E00509C00A0E769 /* ImageDownLoadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDownLoadOperation.m; sourceTree = "<group>"; };
+		4C9E082D1E00DCCD00A0E769 /* ImageDownLoadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDownLoadManager.h; sourceTree = "<group>"; };
+		4C9E082E1E00DCCD00A0E769 /* ImageDownLoadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDownLoadManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C9E07E71E002AF500A0E769 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C9E08001E002AF500A0E769 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C9E080B1E002AF500A0E769 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C9E07E11E002AF500A0E769 = {
+			isa = PBXGroup;
+			children = (
+				4C9E07EC1E002AF500A0E769 /* fmc-自定义的下载功能 */,
+				4C9E08061E002AF500A0E769 /* fmc-自定义的下载功能Tests */,
+				4C9E08111E002AF500A0E769 /* fmc-自定义的下载功能UITests */,
+				4C9E07EB1E002AF500A0E769 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C9E07EB1E002AF500A0E769 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C9E07EA1E002AF500A0E769 /* fmc-自定义的下载功能.app */,
+				4C9E08031E002AF500A0E769 /* fmc-自定义的下载功能Tests.xctest */,
+				4C9E080E1E002AF500A0E769 /* fmc-自定义的下载功能UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C9E07EC1E002AF500A0E769 /* fmc-自定义的下载功能 */ = {
+			isa = PBXGroup;
+			children = (
+				4C9E08201E002B1C00A0E769 /* Singleton.h */,
+				4C9E07F01E002AF500A0E769 /* AppDelegate.h */,
+				4C9E07F11E002AF500A0E769 /* AppDelegate.m */,
+				4C9E08211E00348700A0E769 /* AppInfoModel.h */,
+				4C9E08221E00348700A0E769 /* AppInfoModel.m */,
+				4C9E082A1E00509C00A0E769 /* ImageDownLoadOperation.h */,
+				4C9E082B1E00509C00A0E769 /* ImageDownLoadOperation.m */,
+				4C9E082D1E00DCCD00A0E769 /* ImageDownLoadManager.h */,
+				4C9E082E1E00DCCD00A0E769 /* ImageDownLoadManager.m */,
+				4C9E08281E00492100A0E769 /* apps.plist */,
+				4C9E07F31E002AF500A0E769 /* ViewController.h */,
+				4C9E07F41E002AF500A0E769 /* ViewController.m */,
+				4C9E07F61E002AF500A0E769 /* Main.storyboard */,
+				4C9E07F91E002AF500A0E769 /* Assets.xcassets */,
+				4C9E07FB1E002AF500A0E769 /* LaunchScreen.storyboard */,
+				4C9E07FE1E002AF500A0E769 /* Info.plist */,
+				4C9E07ED1E002AF500A0E769 /* Supporting Files */,
+			);
+			path = "fmc-自定义的下载功能";
+			sourceTree = "<group>";
+		};
+		4C9E07ED1E002AF500A0E769 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C9E07EE1E002AF500A0E769 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C9E08061E002AF500A0E769 /* fmc-自定义的下载功能Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4C9E08071E002AF500A0E769 /* fmc_________Tests.m */,
+				4C9E08091E002AF500A0E769 /* Info.plist */,
+			);
+			path = "fmc-自定义的下载功能Tests";
+			sourceTree = "<group>";
+		};
+		4C9E08111E002AF500A0E769 /* fmc-自定义的下载功能UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C9E08121E002AF500A0E769 /* fmc_________UITests.m */,
+				4C9E08141E002AF500A0E769 /* Info.plist */,
+			);
+			path = "fmc-自定义的下载功能UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C9E07E91E002AF500A0E769 /* fmc-自定义的下载功能 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C9E08171E002AF500A0E769 /* Build configuration list for PBXNativeTarget "fmc-自定义的下载功能" */;
+			buildPhases = (
+				4C9E07E61E002AF500A0E769 /* Sources */,
+				4C9E07E71E002AF500A0E769 /* Frameworks */,
+				4C9E07E81E002AF500A0E769 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fmc-自定义的下载功能";
+			productName = "fmc-自定义的下载功能";
+			productReference = 4C9E07EA1E002AF500A0E769 /* fmc-自定义的下载功能.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C9E08021E002AF500A0E769 /* fmc-自定义的下载功能Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C9E081A1E002AF500A0E769 /* Build configuration list for PBXNativeTarget "fmc-自定义的下载功能Tests" */;
+			buildPhases = (
+				4C9E07FF1E002AF500A0E769 /* Sources */,
+				4C9E08001E002AF500A0E769 /* Frameworks */,
+				4C9E08011E002AF500A0E769 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C9E08051E002AF500A0E769 /* PBXTargetDependency */,
+			);
+			name = "fmc-自定义的下载功能Tests";
+			productName = "fmc-自定义的下载功能Tests";
+			productReference = 4C9E08031E002AF500A0E769 /* fmc-自定义的下载功能Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C9E080D1E002AF500A0E769 /* fmc-自定义的下载功能UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C9E081D1E002AF500A0E769 /* Build configuration list for PBXNativeTarget "fmc-自定义的下载功能UITests" */;
+			buildPhases = (
+				4C9E080A1E002AF500A0E769 /* Sources */,
+				4C9E080B1E002AF500A0E769 /* Frameworks */,
+				4C9E080C1E002AF500A0E769 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C9E08101E002AF500A0E769 /* PBXTargetDependency */,
+			);
+			name = "fmc-自定义的下载功能UITests";
+			productName = "fmc-自定义的下载功能UITests";
+			productReference = 4C9E080E1E002AF500A0E769 /* fmc-自定义的下载功能UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C9E07E21E002AF500A0E769 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "樊梦成";
+				TargetAttributes = {
+					4C9E07E91E002AF500A0E769 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					4C9E08021E002AF500A0E769 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C9E07E91E002AF500A0E769;
+					};
+					4C9E080D1E002AF500A0E769 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C9E07E91E002AF500A0E769;
+					};
+				};
+			};
+			buildConfigurationList = 4C9E07E51E002AF500A0E769 /* Build configuration list for PBXProject "fmc-自定义的下载功能" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C9E07E11E002AF500A0E769;
+			productRefGroup = 4C9E07EB1E002AF500A0E769 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C9E07E91E002AF500A0E769 /* fmc-自定义的下载功能 */,
+				4C9E08021E002AF500A0E769 /* fmc-自定义的下载功能Tests */,
+				4C9E080D1E002AF500A0E769 /* fmc-自定义的下载功能UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C9E07E81E002AF500A0E769 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C9E08291E00492100A0E769 /* apps.plist in Resources */,
+				4C9E07FD1E002AF500A0E769 /* LaunchScreen.storyboard in Resources */,
+				4C9E07FA1E002AF500A0E769 /* Assets.xcassets in Resources */,
+				4C9E07F81E002AF500A0E769 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C9E08011E002AF500A0E769 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C9E080C1E002AF500A0E769 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C9E07E61E002AF500A0E769 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C9E082C1E00509C00A0E769 /* ImageDownLoadOperation.m in Sources */,
+				4C9E07F51E002AF500A0E769 /* ViewController.m in Sources */,
+				4C9E07F21E002AF500A0E769 /* AppDelegate.m in Sources */,
+				4C9E082F1E00DCCD00A0E769 /* ImageDownLoadManager.m in Sources */,
+				4C9E07EF1E002AF500A0E769 /* main.m in Sources */,
+				4C9E08231E00348700A0E769 /* AppInfoModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C9E07FF1E002AF500A0E769 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C9E08081E002AF500A0E769 /* fmc_________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C9E080A1E002AF500A0E769 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C9E08131E002AF500A0E769 /* fmc_________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C9E08051E002AF500A0E769 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C9E07E91E002AF500A0E769 /* fmc-自定义的下载功能 */;
+			targetProxy = 4C9E08041E002AF500A0E769 /* PBXContainerItemProxy */;
+		};
+		4C9E08101E002AF500A0E769 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C9E07E91E002AF500A0E769 /* fmc-自定义的下载功能 */;
+			targetProxy = 4C9E080F1E002AF500A0E769 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C9E07F61E002AF500A0E769 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C9E07F71E002AF500A0E769 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C9E07FB1E002AF500A0E769 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C9E07FC1E002AF500A0E769 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C9E08151E002AF500A0E769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4C9E08161E002AF500A0E769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C9E08181E002AF500A0E769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "fmc-自定义的下载功能/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fmc.fmc---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4C9E08191E002AF500A0E769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "fmc-自定义的下载功能/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fmc.fmc---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4C9E081B1E002AF500A0E769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "fmc-自定义的下载功能Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fmc.fmc---------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fmc-自定义的下载功能.app/fmc-自定义的下载功能";
+			};
+			name = Debug;
+		};
+		4C9E081C1E002AF500A0E769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "fmc-自定义的下载功能Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fmc.fmc---------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fmc-自定义的下载功能.app/fmc-自定义的下载功能";
+			};
+			name = Release;
+		};
+		4C9E081E1E002AF500A0E769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "fmc-自定义的下载功能UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fmc.fmc---------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "fmc-自定义的下载功能";
+			};
+			name = Debug;
+		};
+		4C9E081F1E002AF500A0E769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "fmc-自定义的下载功能UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fmc.fmc---------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "fmc-自定义的下载功能";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C9E07E51E002AF500A0E769 /* Build configuration list for PBXProject "fmc-自定义的下载功能" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C9E08151E002AF500A0E769 /* Debug */,
+				4C9E08161E002AF500A0E769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C9E08171E002AF500A0E769 /* Build configuration list for PBXNativeTarget "fmc-自定义的下载功能" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C9E08181E002AF500A0E769 /* Debug */,
+				4C9E08191E002AF500A0E769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4C9E081A1E002AF500A0E769 /* Build configuration list for PBXNativeTarget "fmc-自定义的下载功能Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C9E081B1E002AF500A0E769 /* Debug */,
+				4C9E081C1E002AF500A0E769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4C9E081D1E002AF500A0E769 /* Build configuration list for PBXNativeTarget "fmc-自定义的下载功能UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C9E081E1E002AF500A0E769 /* Debug */,
+				4C9E081F1E002AF500A0E769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C9E07E21E002AF500A0E769 /* Project object */;
+}
