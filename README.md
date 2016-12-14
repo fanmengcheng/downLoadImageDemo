@@ -1,6 +1,5 @@
 # downLoadImageDemo
-第一个demo
-	
+
 	AppInfoModel *appInfoModel = self.appInfoList[arc4random_uniform(16)];
     //1.创建一个下载的操作
     __weak typeof(self)weakSelf = self;
